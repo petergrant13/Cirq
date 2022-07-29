@@ -3,9 +3,7 @@ import random
 import numpy as np
 import sympy
 
-___________________________________________________________________________________________________________________________________
-# This follows the tutorial on google's Cirq page about making a quantum variational algorithm which is simple and not efficient
-___________________________________________________________________________________________________________________________________
+
 
 def energy_func(length, h, jr, jc):
     def energy(measurements):

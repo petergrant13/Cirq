@@ -1,4 +1,5 @@
 import cirq
+import numpy
 
 # Pick a qubit
 qubit = cirq.GridQubit(0, 0)
